@@ -11,7 +11,7 @@
 	📁 kakao_api_automation/
 	├── 📁 tests/
 	│   └── test_kakao_local_api.py
-  ├── 📄 requirements.txt
+    ├── 📄 requirements.txt
 	├── 📄 README.md
 
 ```
