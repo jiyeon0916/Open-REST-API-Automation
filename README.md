@@ -5,6 +5,18 @@
 이 프로젝트는 Kakao Developers의 **Login API**를 활용하여 OAuth 2.0 인증 과정을 자동화한 테스트 예시입니다.
 
 ---
+## 📂 폴더 구조 및 설명
+
+```
+	📁 kakao_api_automation/
+	├── 📁 tests/
+	│   └── test_kakao_local_api.py
+  ├── 📄 requirements.txt
+	├── 📄 README.md
+
+```
+
+---
 
 ## 📋 과제 개요
 - **Open REST API 활용:** Kakao Login API
