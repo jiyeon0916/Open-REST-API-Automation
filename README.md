@@ -1,6 +1,6 @@
 # Open-REST-API-Automation
 
-# [선택과제] Kakao OAuth 2.0 기반 API 자동화 구현 🚀
+## [선택과제] Kakao OAuth 2.0 기반 API 자동화 구현 🚀
 
 이 프로젝트는 Kakao Developers의 **Login API**를 활용하여 OAuth 2.0 인증 과정을 자동화한 테스트 예시입니다.
 
@@ -33,10 +33,12 @@ REDIRECT_URI = "YOUR_REGISTERED_REDIRECT_URI"
 AUTHORIZATION_CODE = "YOUR_AUTH_CODE"
 ```
 3️⃣ 실행
+```
 pytest -s .\test_kakao_oauth_login.py
-
+```
 ________________________________________
 ✅ 예시 결과
+```
 =========================== test session starts ===========================
 collected 1 item
 
@@ -44,7 +46,7 @@ test_kakao_oauth_login.py::test_get_user_info[AccessToken] PASSED
 [INFO] Access Token 발급 성공 ✅
 [PASS] 사용자 ID: 1234567890, 닉네임: 홍길동
 ============================ 1 passed in 1.35s ============================
-
+```
 ________________________________________
 🧰 기술 스택
 - Python 3.x
